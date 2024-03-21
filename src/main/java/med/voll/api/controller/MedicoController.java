@@ -10,21 +10,21 @@ public class MedicoController {
 
 
 
-    @GetMapping
-    public void pegar(){
-
-    }
+//    @GetMapping
+//    public void pegar(){
+//
+//    }
 
     @PostMapping
     public void cadastrar(@RequestBody DadosCadastroMedico dados) {
         System.out.println(dados);
     }
-    @PutMapping
-    public void atualizar(){
-
-    }
-    @DeleteMapping
-    public void deletar(){
-
-    }
+//    @PutMapping
+//    public void atualizar(){
+//
+//    }
+//    @DeleteMapping
+//    public void deletar(){
+//
+//    }
 }
